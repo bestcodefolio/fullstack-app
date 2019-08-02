@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(18, 18, 18);
+    font-family: sans-serif;
+}
+
+.headline {
+    font-size: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.fa-plus-circle {
+    margin-left: 48.5%;
+    margin-top: 5%;
+    outline: none;
+    cursor: pointer;
+    color: #00afe9;
+    border: none;
+    background: transparent;
+    font-size: 5vh;
+}
+
+.gifs {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.fa-refresh {
+    cursor: pointer;
+
+    margin-top: 4%;
+    margin-left: 6%;
+
+    color: #fff;
+    font-size: 26px;
+}

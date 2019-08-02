@@ -1,0 +1,29 @@
+
+.delete-gif-modal {
+    margin-top: 10%;
+    width: 35vh;
+    border-radius: 3vh;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.delete-gif-modal p {
+    font-size: 18px;
+}
+
+.gif-delete-headline {
+    margin-top: 0;
+}
+
+.confirm-buttons {
+    flex-direction: row;
+}
+
+.delete-gif {
+    width: 30vh;
+    height: 25vh;
+}
+
+.buttons {
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.edit-form {
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 15px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.edit-form div {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.edit-form input[type="name"],
+.edit-form input[type="sumbit"],
+.edit-form input[type="title"],
+.edit-form textarea,
+.edit-form select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border-radius: 4px;
+	/* border: none; */
+	font-size: 18px;
+	margin: 0;
+	outline: 0;
+	padding: 7px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color: #000000;;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 1rem;
+}
+.edit-form input[type="name"]:focus,
+.edit-form input[type="sumbit"]:focus,
+.edit-form input[type="title"]:focus,
+.edit-form textarea:focus,
+.edit-form select:focus{
+	background: #d2d9dd;
+}
+.edit-form select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.edit-form .number {
+	background: #00afe9;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	margin-top: 3%;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.edit-form input[type="submit"],
+.edit-form input[type="button"]
+{
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #00afe9;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #00afe9;
+    border-radius: 30px;
+    border-width: 1px 1px 3px;
+}
+.edit-form input[type="submit"]:hover,
+.edit-form input[type="button"]:hover
+{
+    background: #00afe9;
+}
+
+.gif-edit {
+    width: 25%;
+    height: 25%;
+}

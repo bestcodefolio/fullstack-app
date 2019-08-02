@@ -1,0 +1,28 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "Node.js + React.js + MSSQL",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "app": "npm start --prefix app",
+    "dev": "concurrently \"createFilesDirectory.bat\" \"npm run server\" \"npm run app\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaSavelyev/fullstack-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.18.9"
+  },
+  "bugs": {
+    "url": "https://github.com/IlyaSavelyev/fullstack-app/issues"
+  },
+  "homepage": "https://github.com/IlyaSavelyev/fullstack-app#readme",
+  "dependencies": {
+  }
+}

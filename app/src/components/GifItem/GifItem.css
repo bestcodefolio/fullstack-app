@@ -1,0 +1,12 @@
+.gif {
+    margin: 4px;
+    width: 160px;
+    height: 160px;
+}
+
+.is-loading {
+    background-color: #bdbdbd;
+    background-image: url('../../services/images/loader.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,70 @@
+.one-gif {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gifDescription{
+    color: #fff;
+}
+
+.button {
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 33px;
+    border: 2px solid #fff;
+    background: #fff;
+    color: #00afe9;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.35)
+}
+
+.gif-info-buttons {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+.button-edit {
+    margin-right: 20px;
+}
+
+.gifAuthor{
+    color: #fff;
+}
+
+.authorAvatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 80px; 
+}
+
+.confirmaton-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-default {
+    background-color: rgb(248, 248, 248);
+    border: 1px solid rgba(204, 204, 204, 0.5);
+    color: #5D5D5D;
+}
+
+.button-danger {
+    background-color: #00afe9;
+    border: 1px solid #00afe9;
+    color: #f5f5f5;
+}

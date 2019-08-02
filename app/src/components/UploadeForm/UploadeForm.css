@@ -1,0 +1,39 @@
+.upload .form-group {
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload input[type=file] {
+    outline: 0;
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+}
+.upload .label {
+    width: 120px;
+    border: 2px dashed #00afe9;
+    border-radius: 5px;
+    display: block;
+    padding: 1.2em;
+    transition: border 300ms ease;
+    cursor: pointer;
+    text-align: center;
+}
+.upload .label i {
+    display: block;
+    font-size: 42px;
+    padding-bottom: 16px;
+}
+.upload .label i,.upload .label .title {
+    color: #00afe9;
+    transition: 200ms color;
+}
+.upload .label:hover {
+    border: 2px solid #ffffff;
+}
+.upload .label:hover i,.upload .label:hover .title {
+    color: #ffffff;
+}

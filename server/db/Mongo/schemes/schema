@@ -1,0 +1,17 @@
+user
+    _id:
+    name:
+gifs
+    _id:
+    title:
+    description:
+    author: {
+        _id:
+        name:
+    }
+tags
+    _id:
+    title:
+    gifs: {
+        [gif_id]
+    }

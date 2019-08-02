@@ -1,0 +1,17 @@
+# dependencies
+/node_modules
+
+# production
+/build
+
+# package-lock
+/package-lock
+
+# ToDo
+/ToDo
+
+# Files
+files
+
+# structure
+Project_Structure

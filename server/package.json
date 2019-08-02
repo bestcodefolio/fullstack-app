@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Giphy App Server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "msnodesqlv8": "^0.8.0",
+    "mssql": "^5.1.0",
+    "path": "^0.12.7",
+    "mongoose": "^5.6.7",
+    "morgan": "^1.9.1"
+  }
+}
